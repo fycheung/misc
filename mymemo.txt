@@ -1,0 +1,3 @@
+12.24
+Python数据库连接池相关示例详细介绍Python数据库连接池相关示例详细介绍
+http://www.codesky.net/article/201003/122518.html
