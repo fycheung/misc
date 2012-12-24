@@ -1,16 +1,24 @@
-body {background-color:#F0F0F0;}
+body {
+	background-color:#F0F0F0;
+	padding: 0px;
+	margin: 0px;
+
+}
 #pagebanner
 {
 	clear: both; /*清除各种排版方法的影响*/
-	background: #0063A6;
-	padding: 0;
-	margin: 0 auto;
+	/*background: #0063A6;*/
+	padding: 0px;
+	margin: 0px;
+	height: 205px;
+	background-image: url(../images/banner.gif);
+	background-repeat: repeat;
 
 }
 
 #banner_top
 {
-	background: #0063A6;
+	background: transparent;
 	padding:10px 10px 0;
 	font-size:1.7em;
 	text-align: center;
@@ -21,18 +29,19 @@ body {background-color:#F0F0F0;}
 #banner_middle
 {	
 	margin:0;
-	background: #0063A6;
-	height: 78px;
+	background:transparent;
+	height:95px;
 }
 
 #title_detail
 {
 	padding: 10px;
 	color: #FFFFFF;
-	background: #0063A6;
+	background: transparent;
 	font-style: italic;
 	font-family: 楷体;
 	text-align: center;
+	height: 25px;
 }
 
 #menu
@@ -55,6 +64,8 @@ body {background-color:#F0F0F0;}
 	margin: 0 auto;
 	padding: 0;
 	background-color: #EAEAEA;
+	position: relative;
+	top: -15px;
 	
 }
 #container_in
