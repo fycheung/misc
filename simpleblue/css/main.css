@@ -1,0 +1,81 @@
+body {background-color:#F0F0F0;}
+#pagebanner
+{
+	clear: both; /*清除各种排版方法的影响*/
+	background: #0063A6;
+	padding: 0;
+	margin: 0 auto;
+
+}
+
+#banner_top
+{
+	background: #0063A6;
+	padding:10px 10px 0;
+	font-size:1.7em;
+	text-align: center;
+	color:#FFF;
+	margin:0;
+	height: 110px;
+}
+#banner_middle
+{	
+	margin:0;
+	background: #0063A6;
+	height: 78px;
+}
+
+#title_detail
+{
+	padding: 10px;
+	color: #FFFFFF;
+	background: #0063A6;
+	font-style: italic;
+	font-family: 楷体;
+	text-align: center;
+}
+
+#menu
+{
+	font-family: arial, sans-serif;
+	margin:0 auto;
+	width:960px;
+	text-align: center;
+	background-color: #0090D2;
+	height: 40px;
+}
+
+#container
+{
+	border-style: none;
+	border-color: inherit;
+	border-width: 0;
+	width: 972px;
+	height: 370px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #EAEAEA;
+	
+}
+#container_in
+{
+	border-style: none;
+	border-color: inherit;
+	border-width: 0;
+	width: 960px;
+	height: 360px;
+	margin: 0 auto;
+	padding: 0;
+	background: #FFFFFF;
+}
+
+#pagefooter
+{
+	clear: both; /*清除各种排版方法的影响*/
+	text-align: center;
+	font-family: 楷体;
+	color: #000000;
+	font-size: medium;
+	height: 80px;
+	background-image: url('../Images/003.png');
+}

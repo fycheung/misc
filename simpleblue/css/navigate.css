@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* CSS Reset */
+ul,ol,li{padding:0;margin:0;list-style: none}
+
+#nav{line-height:24px;padding-top:7px}
+#nav a{display:block;width:78px;text-align:center;border-bottom:none;font-size:16px;color:White ;text-decoration:none}
+#nav li a:hover{background:#0090D2;color:#FF8C00;text-decoration:none}
+
+#nav li{float:left;width:78px;background-color:transparent;position:relative;z-index:10000}
+#nav li ul{display:none}
+#nav li:hover ul{display:block;position:absolute;left:0px}
+#nav li ul li{width:78px;background:#0090D2}
+#nav li ul a{width:78px;text-align:center;font:400 16px/27px Arial,Tahoma,Simsun,Sans-serif;color:white}
+#nav li ul a:hover{background:#0090D2;color:#FF8C00;}
+#nav .ssep{width:1px;height:12px;background:#000;margin:6px 2px 0;font-size:0px}
