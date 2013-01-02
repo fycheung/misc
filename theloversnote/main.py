@@ -11,6 +11,10 @@ class IndexPage(webapp.RequestHandler):
 class CodeHandler(webapp.RequestHandler):
     def get(self):
         self.response.out.write('hello,hello,hello')
+    def post(self):
+        code = self.request.get('code')
+        codetype = self.request.get('codetype')
+        self.response.out.write(str(code)+'+++'+str(codetype))
         
 app = webapp.WSGIApplication([('/code',CodeHandler),('/.*',IndexPage)],debug=True)
 
