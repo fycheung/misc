@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SphinxNote</title>
+<link href="/static/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="banner"> <img src="/static/logo.png" height="128" width="128" /> <br/>
+    Let me zip your secret! </div>
+<div id="outer">
+    <div id="inner">
+        <div id="title">Sphinx Note</div>
+        <div id="container">
+            <h3>Type in your code here:</h3>
+            <form method="post" action="/code">
+                <textarea name='text' type="text" style="width:470px;height:130px;resize: none;" ></textarea>
+                <br/>
+                <br/>
+                Encode:
+                <input  id="type" name="codetype" type="radio" value="encode">
+                <br/>
+                Decode:
+                <input name="codetype" type="radio" value="decode"/>
+                <br/>
+                <input class="button" type="submit"  value="Engine Start"/>
+            </form>
+        </div>
+    </div>
+</div>
+<div style="text-align:center">&copy;Made for my Lover C-Tan. <br/>
+    Power by fycheung</div>
+</body>
+</html>
