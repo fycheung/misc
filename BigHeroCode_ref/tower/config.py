@@ -1,0 +1,22 @@
+# -*- coding: utf8 -*-
+
+TOWER_CFG_PATH = "../cfg/tower.cfg"
+
+MAX_FLOOR_NUM = 300 #高塔最大为300层
+
+#章节划分
+CHAPTER_LEVEL_MAP = {1:35, 2:35, 3:35, 4:55, 5:55, 6:55}
+FLOOR_CHAPTER_MAP = {19:2, 49:3, 99:4, 149:5, 199:6}
+CHAPTER_FLOOR_MAP = {1:0, 2:20, 3:50, 4:100, 5:150, 6:200}
+
+FREE_BAG_GRID_NUM = 5 #单次爬塔所需格子数
+
+AUTO_TOWER_TIME = 2000 #自动爬塔时间（微秒）
+
+TOWER_TECH_QUEST_ID = {1:15155, 2:15255, 3:15355}
+        
+TOWER_TECH_ITEM_DROP_IDS = (1196, 16757)
+
+GOLD_PER_FLOOR = 2 #每层扣费2金币
+
+MIN_ENTER_LEVEL = 29 #最低进入等级
