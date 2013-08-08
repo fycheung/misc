@@ -1,0 +1,58 @@
+
+2013-08-06 09:09:16,914 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 have stoped server
+
+2013-08-06 09:10:23,941 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 have stoped server
+
+2013-08-06 09:12:09,358 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 have stoped server
+
+2013-08-06 09:12:17,443 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 have stoped server
+
+2013-08-06 09:14:08,172 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 have stoped server
+
+2013-08-06 11:46:06,949 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 have stoped server
+
+2013-08-06 11:46:17,224 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 have stoped server
+
+2013-08-06 17:27:03,718 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-06 17:27:03,950 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 have stoped server
+
+2013-08-06 17:28:04,378 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR2, Gcore reload()
+
+2013-08-06 17:32:55,241 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR2, Gcore reload()
+
+2013-08-06 17:33:33,871 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR2, Gcore reload()
+
+2013-08-06 17:37:02,775 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR2, Gcore reload()
+
+2013-08-06 17:38:30,324 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR2, Gcore reload()
+
+2013-08-06 17:40:45,115 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR2, Gcore reload()
+
+2013-08-06 17:41:15,893 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR2, Gcore reload()
+
+2013-08-06 17:42:58,750 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR2, Gcore reload()
+
+2013-08-06 17:43:19,561 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR2, Gcore reload()
+
+2013-08-06 17:44:58,277 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-06 17:44:58,280 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 have stoped server
+
+2013-08-06 17:46:01,712 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-06 17:46:01,715 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 have stoped server
+
+2013-08-06 17:46:24,437 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR2, Gcore reload()
+
+2013-08-06 17:47:52,539 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR2, Gcore reload()
+
+2013-08-06 18:06:42,448 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR2, Gcore reload()
+
+2013-08-06 18:06:57,760 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 going to stop server
+
+2013-08-06 18:06:57,761 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 have stoped server
+
+2013-08-06 18:14:34,794 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR1 have stoped server
+
+2013-08-06 18:15:16,400 - system   - WARNING  - gateway.py      - I got a signal.SIGUSR2, Gcore reload()

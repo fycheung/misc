@@ -1,0 +1,9 @@
+ps createWordTree()
+>>> Gcore go start
+-----Gcore.start-----
+>>>创建连接池   gamesg
+-----end Gcore.start -----
+DbLogger.loop()
+MyRedis.loop()
+Finish at: 2013-08-07 22:00:02
+Total Runtime: 0.677013158798

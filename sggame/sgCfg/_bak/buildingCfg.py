@@ -1,0 +1,70 @@
+#coding:utf8
+'''
+建筑配置信息
+'''
+
+#建筑工匠的初始数量；最大数量；增加工匠的消费；，每元宝加速时间；返还比例。
+CFG_BUILDING = \
+{
+ "cfgKey":12004,
+ "initWorkerNum":2, "maxWorkerNum":5, 
+ "hireWorkerPrice":{1:500,2:500,3:500}, "speedupTime":30,
+ "cancelReturn":0.5
+}
+
+#建筑分类
+# key是分类ID，value是对该分类的描述。
+CFG_BUILDINGCATEGORY = {"cfgKey":12001, 1:'中心建筑', 2:'资源建筑', 3:'功能建筑'}
+
+#资源类型
+CFG_COINTYPE = {"cfgKey":12002, 3:"元宝", 1:"军资", 2:"铜钱", 4:"士兵"}
+
+#建筑类型
+# + 内层字典：key是建筑类型ID，value是该类建筑的属性。
+CFG_BUILDINGTYPE = \
+{
+ "cfgKey": 12003,
+ 1:{
+    "buildingName":"将军府", "openLevel":1, "maxLevel":30,
+    "maxNum":1, "buildingSize":(5, 5), "buildingCosume":3, "upgradeCosume":3,
+    "buildingCD":30, "buildingExpense":1000, "extendLevel":{},
+    "produceCoinType":0, "produceSpeed":0, "storageType":0, "maxStorage":0,
+    "buildingCategory":1
+   },
+ 2:{
+    "buildingName":"军需所", "openLevel":1, "maxLevel":30,
+    "maxNum":5, "buildingSize":(2, 2), "buildingCosume":3, "upgradeCosume":3,
+    "buildingCD":10, "buildingExpense":400, "extendLevel":{2:5, 3:12, 4:20},
+    "produceCoinType":2, "produceSpeed":500, "storageType":2, "maxStorage":300,
+    "buildingCategory":2
+   }
+}
+
+#建造CD倍数
+CFG_BUILDINGCD = \
+{
+ 1:0, 
+ 2:5, 3:5, 4:5, 
+ 5:3, 
+ 6:2, 7:2, 8:2, 9:2, 
+ 10:1.1, 11:1.1, 12:1.1, 13:1.1, 14:1.1,
+ 15:1.05, 16:1.05, 17:1.05, 18:1.05, 19:1.05,
+ 20:1.01, 21:1.01, 22:1.01, 23:1.01, 24:1.01, 25:1.01, 26:1.01, 27:1.01, 28:1.01, 29:1.01, 30:1.01
+}
+
+#建造花费倍数
+CFG_BUILDINGEXPENSE = \
+{
+ 1:0,
+ 2:1.1, 3:1.1, 4:1, 
+ 5:5,
+ 6:2, 7:2, 8:2,
+ 9:1.1,
+ 10:3,
+ 11:1.1, 12:1.1, 13:1.1,
+ 14:1.05, 15:1.05, 16:1.05, 17:1.05, 18:1.05, 19:1.05, 20:1.05, 21:1.05,
+ 22:1.02, 23:1.02, 24:1.02,
+ 25:3,
+ 26:1.1, 27:1.1, 28:1.1, 29:1.1,
+ 30:3
+}

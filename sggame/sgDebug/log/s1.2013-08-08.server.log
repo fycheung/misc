@@ -1,0 +1,18 @@
+
+2013-08-08 11:18:41,548 - system   - WARNING  - battleway.py    - I got a signal.SIGUSR2, Gcore reload()
+
+2013-08-08 11:18:48,502 - system   - WARNING  - battleway.py    - I got a signal.SIGUSR1 going to stop server
+
+2013-08-08 11:20:50,595 - system   - WARNING  - TestLizr.py     - I got a signal.SIGUSR1 going to stop server
+
+2013-08-08 11:22:22,924 - system   - WARNING  - TestLizr.py     - I got a signal.SIGUSR1 going to stop server
+
+2013-08-08 11:22:55,144 - system   - WARNING  - TestLizr.py     - I got a signal.SIGUSR1 going to stop server
+
+2013-08-08 11:23:32,003 - system   - WARNING  - TestLizr.py     - I got a signal.SIGUSR1 going to stop server
+
+2013-08-08 11:24:09,862 - server   - WARNING  - TestLizr.py     - I got a signal.SIGUSR1 going to stop server
+
+2013-08-08 11:25:38,786 - server   - WARNING  - TestLizr.py     - I got a signal.SIGUSR1 going to stop server
+
+2013-08-08 11:34:37,552 - server   - WARNING  - battleway.py    - I got a signal.SIGUSR1 going to stop server

@@ -1,0 +1,20 @@
+
+2013-07-23 09:55:12,944 - system   - DEBUG    - TestLizr.py     - hi,ewing
+
+2013-07-23 09:57:00,674 - system   - DEBUG    - TestLizr.py     - hi,ewing
+
+2013-07-23 09:57:06,581 - system   - DEBUG    - TestLizr.py     - hi,ewing
+
+2013-07-23 09:57:23,631 - system   - DEBUG    - TestLizr.py     - hi,ewing
+
+2013-07-23 09:58:16,344 - system   - DEBUG    - TestLizr.py     - hi,ewing
+
+2013-07-23 14:57:09,947 - system   - INFO     - gateway_8088.py - I got a signal.SIGUSR1
+
+2013-07-23 15:43:19,099 - system   - INFO     - gateway_8088.py - I got a signal.SIGUSR1
+
+2013-07-23 15:47:34,110 - system   - INFO     - gateway_8088.py - I got a signal.SIGUSR1
+
+2013-07-23 15:56:10,188 - system   - WARNING  - TestLizr.py     - hi
+
+2013-07-23 15:58:44,067 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR2,Gcore.reload()

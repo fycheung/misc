@@ -1,0 +1,108 @@
+
+2013-08-01 11:05:35,219 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 11:05:35,221 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 11:09:12,717 - system   - WARNING  - gateway_8099.py - I got a signal.SIGTERM server stop
+
+2013-08-01 11:09:12,719 - system   - WARNING  - gateway_8099.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 11:39:39,166 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 11:39:39,168 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:09:33,798 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:09:33,799 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:40:19,844 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:40:19,846 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:41:24,323 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:41:24,324 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:43:41,930 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:43:41,931 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:45:19,754 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:45:19,755 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:45:40,806 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:45:40,807 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:45:53,104 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:45:53,106 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:48:44,859 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:48:44,861 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:49:01,885 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:49:01,886 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:49:49,568 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:49:49,569 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:50:34,718 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:50:34,719 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:52:14,009 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:52:14,010 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:52:58,673 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:52:58,674 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:54:07,541 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:54:07,542 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:55:47,901 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:55:47,902 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:57:14,662 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:57:14,663 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:59:36,377 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:59:36,378 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 14:59:48,924 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 14:59:48,925 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 15:00:30,094 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 15:00:30,095 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 15:01:03,872 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 15:01:03,873 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 15:01:30,217 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 15:01:30,219 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 15:42:26,859 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 15:42:26,861 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 15:51:21,609 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 15:51:21,611 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-08-01 20:33:49,507 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-08-01 20:33:49,508 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server

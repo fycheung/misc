@@ -1,0 +1,345 @@
+ps createWordTree()
+>>> Gcore go start
+-----Gcore.start-----
+>>>创建连接池   gamesg
+-----end Gcore.start -----
+SECRET_DATA_OPEN 1
+DbLogger.loop()
+MyRedis.loop()
+==================================================
+=                 Server Started                 =
+==================================================
+SystemNotice.loop()
+ >>> TRACE[2013-08-08 17:28:41 (1375954121.34)]  <sgz.Server:('0.0.0.0', 8094)> has a new connection:('10.1.1.244', 64547)
+---  2013-08-08 17:28:41 1375954121.35  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"10001_12",
+	"para":	{
+		"pyKey":	"JV4vUlQXUyNsPQ5GCExEWFBCMiIhJy9FAERtIk4LRQYOF2VoaxVQAkkGFVECXh1YF31ZWkFJVkZfXjIxQAZNEl0MBUBDU0lDSyQFSklZQkhANgVBEnY9djk4QkEFWBtTHgtpZGcBRAFAKA1VVkZOUUtRcmNzanlpcWQdCU5VTl5EAiBld210YH1nFAVHCBYSFBUZVxVUKmUiZAYdDRQJGgkfa3tocyQ="
+	},
+	"stime":	1375954115,
+	"opt_id":	10001
+}
+--------------------------------------------------------------------------------
+tokenDict >  {u'UserName': u'ewing6', u'TotalServiceId': u'563', u'LoginMode': 2, u'PlayerId': 0, u'LoginVersion': u'101', u'Lan': 1, u'LockTime': 1375954121}
+未到计算时间
+未到计算时间
+过去了 1 个计算时间间隔
+生产速度 2 每秒
+理论生产 600
+已有 2500
+征兵上限 2500
+将士兵生产信息写回数据库
+LoginMod.cacheUserInfo() 44495
+ ----------  Logined,uid= 44495
+LoginMod.cacheUserInfo() 44495
+44495 login get logId:4684 at 1375954121.41
+redisL.hset sgLogin 1.44495 1
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:41 1375954121.44  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"HeartBeatInterval": 30, "PVPendTime": null, "ClubBox": {"1": 10, "3": 100, "2": 50}, "Factor": {"kLeader": 5}, "ProtectEndTime": 1375706875, "VipLevel": 7, "UserLevel": 27, "HolderId": 0, "ServerId": 1, "UserHonour": 81, "SuserId": "1.44495", "ClubId": 0, "Website": "http://testsg.qiugame.com/", "MaxWorkerNum": 5, "ArmyAdviserId": 2, "BuyMapTimes": 1, "UserId": 44495, "Equipments": [{"Price": 7000.0, "EnhanceForce": 30, "EnhanceSpeed": 0, "EnhanceWit": 0, "StrengthenLevel": 0, "EnhanceLeader": 10, "EquipId": 4806, "EquipType": 1, "GeneralId": 0}, {"Price": 8625.0, "EnhanceForce": 64, "EnhanceSpeed": 0, "EnhanceWit": 0, "StrengthenLevel": 1, "EnhanceLeader": 0, "EquipId": 4807, "EquipType": 2, "GeneralId": 12158}, {"Price": 4000.0, "EnhanceForce": 30, "EnhanceSpeed": 0, "EnhanceWit": 0, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4808, "EquipType": 3, "GeneralId": 0}, {"Price": 4750.0, "EnhanceForce": 0, "EnhanceSpeed": 60, "EnhanceWit": 0, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4809, "EquipType": 4, "GeneralId": 0}, {"Price": 8500.0, "EnhanceForce": 20, "EnhanceSpeed": 0, "EnhanceWit": 0, "StrengthenLevel": 0, "EnhanceLeader": 20, "EquipId": 4810, "EquipType": 5, "GeneralId": 0}, {"Price": 32500.0, "EnhanceForce": 120, "EnhanceSpeed": 0, "EnhanceWit": 120, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4811, "EquipType": 51, "GeneralId": 0}, {"Price": 125000.0, "EnhanceForce": 180, "EnhanceSpeed": 0, "EnhanceWit": 0, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4860, "EquipType": 37, "GeneralId": 0}, {"Price": 87500.0, "EnhanceForce": 63, "EnhanceSpeed": 80, "EnhanceWit": 27, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4861, "EquipType": 33, "GeneralId": 0}, {"Price": 37525.0, "EnhanceForce": 187, "EnhanceSpeed": 0, "EnhanceWit": 153, "StrengthenLevel": 5, "EnhanceLeader": 0, "EquipId": 4893, "EquipType": 52, "GeneralId": 12129}, {"Price": 8500.0, "EnhanceForce": 20, "EnhanceSpeed": 0, "EnhanceWit": 0, "StrengthenLevel": 0, "EnhanceLeader": 20, "EquipId": 4943, "EquipType": 5, "GeneralId": 0}, {"Price": 8500.0, "EnhanceForce": 20, "EnhanceSpeed": 0, "EnhanceWit": 0, "StrengthenLevel": 0, "EnhanceLeader": 20, "EquipId": 4944, "EquipType": 5, "GeneralId": 12129}, {"Price": 4000.0, "EnhanceForce": 0, "EnhanceSpeed": 0, "EnhanceWit": 30, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4946, "EquipType": 8, "GeneralId": 0}, {"Price": 4000.0, "EnhanceForce": 0, "EnhanceSpeed": 0, "EnhanceWit": 30, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4947, "EquipType": 8, "GeneralId": 0}, {"Price": 4000.0, "EnhanceForce": 0, "EnhanceSpeed": 0, "EnhanceWit": 30, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4948, "EquipType": 8, "GeneralId": 0}, {"Price": 4000.0, "EnhanceForce": 0, "EnhanceSpeed": 0, "EnhanceWit": 30, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4949, "EquipType": 8, "GeneralId": 0}, {"Price": 4000.0, "EnhanceForce": 0, "EnhanceSpeed": 0, "EnhanceWit": 30, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4950, "EquipType": 8, "GeneralId": 0}, {"Price": 4000.0, "EnhanceForce": 0, "EnhanceSpeed": 0, "EnhanceWit": 30, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4978, "EquipType": 8, "GeneralId": 0}, {"Price": 4000.0, "EnhanceForce": 0, "EnhanceSpeed": 0, "EnhanceWit": 30, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4979, "EquipType": 8, "GeneralId": 0}, {"Price": 4000.0, "EnhanceForce": 0, "EnhanceSpeed": 0, "EnhanceWit": 30, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4980, "EquipType": 8, "GeneralId": 0}, {"Price": 4000.0, "EnhanceForce": 0, "EnhanceSpeed": 0, "EnhanceWit": 30, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4981, "EquipType": 8, "GeneralId": 0}, {"Price": 4000.0, "EnhanceForce": 0, "EnhanceSpeed": 0, "EnhanceWit": 30, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 4982, "EquipType": 8, "GeneralId": 0}, {"Price": 500000.0, "EnhanceForce": 400, "EnhanceSpeed": 0, "EnhanceWit": 400, "StrengthenLevel": 0, "EnhanceLeader": 0, "EquipId": 5272, "EquipType": 69, "GeneralId": 0}], "UserIcon": 3, "GiveRatio": 0.05, "Coin": {"Jcoin": 224406, "Gcoin": 413623, "Mcoin": 113015, "GoldCoin": 3244186}, "SoldierLevel": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": 0, "16": 0, "17": 0, "18": 0, "301": 0, "302": 0, "303": 0, "304": 0, "305": 0, "201": 0, "202": 0, "203": 0, "204": 0, "205": 0, "101": 0, "102": 0, "103": 0, "104": 0, "105": 0}, "ClubDvo": 0, "Generals": [{"LeaderValue": 156, "ArmourId": 4807, "TrainSpeedValue": 0, "SpeedValue": 175, "ExpValue": 1230, "Location": 12648, "PosId": 1, "WeaponId": 0, "UserId": 44495, "GeneralLevel": 20, "HelmetId": 0, "BootsId": 0, "JewelryId": 0, "GeneralState": 1, "ForceValue": 225, "TrainForceValue": 0, "TakeType": 101, "WitValue": 195, "TrainLeaderValue": 0, "SashId": 0, "GeneralType": 12, "TrainWitValue": 0, "TakeNum": 420, "TakeTypeDefense": 0, "CreateTime": 1375438218, "GeneralId": 12158}, {"LeaderValue": 98, "ArmourId": 0, "TrainSpeedValue": 5, "SpeedValue": 90, "ExpValue": 780, "Location": 12649, "PosId": 2, "WeaponId": 0, "UserId": 44495, "GeneralLevel": 2, "HelmetId": 0, "BootsId": 0, "JewelryId": 0, "GeneralState": 1, "ForceValue": 84, "TrainForceValue": 13, "TakeType": 3, "WitValue": 129, "TrainLeaderValue": 14, "SashId": 0, "GeneralType": 20, "TrainWitValue": 0, "TakeNum": 420, "TakeTypeDefense": 0, "CreateTime": 1375438229, "GeneralId": 12159}, {"LeaderValue": 92, "ArmourId": 0, "TrainSpeedValue": 0, "SpeedValue": 81, "ExpValue": 121030, "Location": 12647, "PosId": 7, "WeaponId": 4893, "UserId": 44495, "GeneralLevel": 5, "HelmetId": 0, "BootsId": 0, "JewelryId": 4944, "GeneralState": 1, "ForceValue": 262, "TrainForceValue": 0, "TakeType": 1, "WitValue": 268, "TrainLeaderValue": 0, "SashId": 0, "GeneralType": 125, "TrainWitValue": 0, "TakeNum": 360, "TakeTypeDefense": 0, "CreateTime": 1375344957, "GeneralId": 12129}], "Fighter": "", "SoldierInfo": {"Soldiers": {"Soldier8": 0, "Soldier9": 0, "Soldier2": 3000, "Soldier3": 2085, "Soldier1": 12769, "Soldier6": 30, "Soldier7": 0, "Soldier4": 0, "Soldier5": 0, "Soldier101": 1901, "Soldier103": 0, "Soldier102": 0, "Soldier105": 0, "Soldier104": 0, "Soldier10": 0, "Soldier11": 160, "Soldier12": 0, "Soldier13": 0, "Soldier14": 0, "Soldier15": 0, "Soldier16": 0, "Soldier17": 0, "Soldier18": 0}, "SoldierStorage": {"12650": {"UserId": 44495, "StorageNum": 3500, "LastCalTime": 1375954121, "LastChangedTime": 1375954106, "CreateTime": 1375165208, "BuildingType": 6, "BuildingId": 12650}, "12884": {"UserId": 44495, "StorageNum": 3500, "LastCalTime": 1375954121, "LastChangedTime": 1375953836, "CreateTime": 1375256499, "BuildingType": 8, "BuildingId": 12884}, "13279": {"UserId": 44495, "StorageNum": 2500, "LastCalTime": 1375954121, "LastChangedTime": 1375954117, "CreateTime": 1375706602, "BuildingType": 6, "BuildingId": 13279}}}, "VipDiscount": {"1": 0.98, "2": 0.96, "3": 0.94, "4": 0.92, "5": 0.9, "6": 0.88, "7": 0.86, "8": 0.84, "9": 0.82, "10": 0.8, "11": 0.78, "12": 0.76, "13": 0.74, "14": 0.72, "15": 0.7}, "FightLevel": 10, "HoldEndTime": 0, "ServerTime": 1375954121.353709, "FightRestTime": 0, "MissionFinish": 5, "PvpTime": {"1": {"start": "11:00:00", "end": "14:00:00"}, "2": {"start": "19:00:00", "end": "22:00:00"}}, "FirstLogin": 0, "PVPstartTime": null, "UserExp": 264894, "NickName": "\u7504\u748e", "InitGcoin": 25000, "UserCamp": 3, "WorkerNumber": 5, "TimezoneDif": 8, "Exchange": {"3": 10000, "2": 10000}, "Scene": {"BuildingInfo": [{"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 13, "y": 46, "x": 22, "BuildingType": 1, "BuildingId": 12643, "CompleteTime": 1375705921}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 46, "x": 0, "BuildingType": 19, "BuildingId": 12644, "CompleteTime": 1375165203}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 13, "y": 53, "x": 24, "BuildingType": 4, "BuildingId": 12645, "CompleteTime": 1375763600}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 13, "y": 49, "x": 26, "BuildingType": 3, "BuildingId": 12646, "CompleteTime": 1375763606}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 3, "y": 46, "x": 15, "BuildingType": 18, "BuildingId": 12647, "CompleteTime": 1375438171}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 43, "x": 19, "BuildingType": 18, "BuildingId": 12648, "CompleteTime": 1375165203}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 39, "x": 21, "BuildingType": 18, "BuildingId": 12649, "CompleteTime": 1375165203}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 3, "y": 50, "x": 19, "BuildingType": 6, "BuildingId": 12650, "CompleteTime": 1375438106}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 5, "y": 43, "x": 26, "BuildingType": 7, "BuildingId": 12651, "CompleteTime": 1375438489}, {"BuildingState": 0, "Storage": 67, "CalTime": 1375954121.374424, "BuildingLevel": 6, "y": 36, "x": 25, "BuildingType": 2, "BuildingId": 12652, "CompleteTime": 1375439398}, {"BuildingState": 0, "Storage": 118, "CalTime": 1375954121.374424, "BuildingLevel": 13, "y": 33, "x": 23, "BuildingType": 5, "BuildingId": 12653, "CompleteTime": 1375707530}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 54, "x": 24, "BuildingType": 103, "BuildingId": 12654, "CompleteTime": 1375165203}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 46, "x": 20, "BuildingType": 103, "BuildingId": 12655, "CompleteTime": 1375165203}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 39, "x": 24, "BuildingType": 103, "BuildingId": 12656, "CompleteTime": 1375165203}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 40, "x": 20, "BuildingType": 102, "BuildingId": 12657, "CompleteTime": 1375165203}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 38, "x": 21, "BuildingType": 102, "BuildingId": 12658, "CompleteTime": 1375165203}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 39, "x": 28, "BuildingType": 102, "BuildingId": 12659, "CompleteTime": 1375165203}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 37, "x": 27, "BuildingType": 102, "BuildingId": 12660, "CompleteTime": 1375165203}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 57, "x": 23, "BuildingType": 105, "BuildingId": 12662, "CompleteTime": 1375165203}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 52, "x": 28, "BuildingType": 110, "BuildingId": 12663, "CompleteTime": 1375165203}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 40, "x": 25, "BuildingType": 104, "BuildingId": 12664, "CompleteTime": 1375165203}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 5, "y": 47, "x": 28, "BuildingType": 13, "BuildingId": 12665, "CompleteTime": 1375438549}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 5, "y": 44, "x": 30, "BuildingType": 10, "BuildingId": 12667, "CompleteTime": 1375438446}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 3, "y": 57, "x": 25, "BuildingType": 15, "BuildingId": 12755, "CompleteTime": 1375438081}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 4, "y": 40, "x": 29, "BuildingType": 14, "BuildingId": 12764, "CompleteTime": 1375438294}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 4, "y": 34, "x": 27, "BuildingType": 16, "BuildingId": 12765, "CompleteTime": 1375705947}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 2, "y": 31, "x": 25, "BuildingType": 11, "BuildingId": 12808, "CompleteTime": 1375438125}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 3, "y": 34, "x": 21, "BuildingType": 8, "BuildingId": 12884, "CompleteTime": 1375438136}, {"BuildingState": 0, "Storage": 1053, "CalTime": 1375954121.374424, "BuildingLevel": 5, "y": 60, "x": 24, "BuildingType": 2, "BuildingId": 13270, "CompleteTime": 1375782471}, {"BuildingState": 0, "Storage": 2500, "CalTime": 1375954121.374424, "BuildingLevel": 1, "y": 51, "x": 29, "BuildingType": 2, "BuildingId": 13271, "CompleteTime": 1375706385}, {"BuildingState": 0, "Storage": 6000, "CalTime": 1375954121.374424, "BuildingLevel": 3, "y": 59, "x": 21, "BuildingType": 2, "BuildingId": 13272, "CompleteTime": 1375706561}, {"BuildingState": 0, "Storage": 3441, "CalTime": 1375954121.374424, "BuildingLevel": 2, "y": 63, "x": 25, "BuildingType": 2, "BuildingId": 13273, "CompleteTime": 1375706483}, {"BuildingState": 0, "Storage": 25000, "CalTime": 1375954121.374424, "BuildingLevel": 9, "y": 56, "x": 20, "BuildingType": 2, "BuildingId": 13274, "CompleteTime": 1375732212}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 52, "x": 16, "BuildingType": 3, "BuildingId": 13275, "CompleteTime": 1375706417}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 2, "y": 61, "x": 27, "BuildingType": 3, "BuildingId": 13276, "CompleteTime": 1375706467}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 11, "y": 63, "x": 22, "BuildingType": 3, "BuildingId": 13277, "CompleteTime": 1375706553}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 2, "y": 66, "x": 24, "BuildingType": 12, "BuildingId": 13278, "CompleteTime": 1375706487}, {"BuildingState": 0, "Storage": 0, "CalTime": 0, "BuildingLevel": 1, "y": 56, "x": 30, "BuildingType": 6, "BuildingId": 13279, "CompleteTime": 1375706463}], "BuyMapInfo": [], "InteractGids": []}, "Inters": {"10": {"Vip": 0.11, "Total": 0.11, "Tech": 0.0, "General": 0.0}, "1": {"Vip": 0.11, "Total": 0.12, "Tech": 0.0, "General": 0.01}, "3": {"Vip": 0.11, "Total": 0.11, "Tech": 0.0, "General": 0.0}, "2": {"Vip": 0.11, "Total": 0.11, "Tech": 0.0, "General": 0.0}, "5": {"Vip": 0.11, "Total": 0.11, "Tech": 0.0, "General": 0.0}, "4": {"Vip": 0.11, "Total": 0.11, "Tech": 0.0, "General": 0.0}, "7": {"Vip": 0.11, "Total": 0.13, "Tech": 0.0, "General": 0.02}, "6": {"Vip": 0.11, "Total": 0.11, "Tech": 0.0, "General": 0.0}, "9": {"Vip": 0.11, "Total": 0.11, "Tech": 0.0, "General": 0.0}, "8": {"Vip": 0.11, "Total": 0.11, "Tech": 0.0, "General": 0.0}}, "GuideProcessId": 3, "DivertCost": 50, "DivertCostType": 1, "Timezone": "Asia/Shanghai", "HolderServerId": 0, "BindAccount": 1, "InitJcoin": 25000}, "flag": 1, "opt_id": 10001, "opt_key": "10001_12", "retime": 1375954121}
+---  2013-08-08 17:28:41 1375954121.64  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"15051_13",
+	"para":	{
+		"BuildingId":	13278
+	},
+	"stime":	1375954121,
+	"opt_id":	15051
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 15051
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:41 1375954121.65  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"SoldierTechs": [], "InterTechs": []}, "flag": 1, "opt_id": 15051, "opt_key": "15051_13", "retime": 1375954121}
+---  2013-08-08 17:28:41 1375954121.66  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"15050_14",
+	"para":	{
+		"BuildingId":	13278
+	},
+	"stime":	1375954121,
+	"opt_id":	15050
+}
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:41 1375954121.66  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"23013_15",
+	"stime":	1375954121,
+	"opt_id":	23013
+}
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:41 1375954121.66  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"23010_16",
+	"stime":	1375954121,
+	"opt_id":	23010
+}
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:41 1375954121.66  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"18007_17",
+	"stime":	1375954121,
+	"opt_id":	18007
+}
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:41 1375954121.66  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"19011_18",
+	"stime":	1375954121,
+	"opt_id":	19011
+}
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:41 1375954121.66  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"13061_19",
+	"stime":	1375954121,
+	"opt_id":	13061
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 15050
+ --> ps proManager.checkOpt 44495 23013
+ --> ps proManager.checkOpt 44495 23010
+ --> ps proManager.checkOpt 44495 18007
+ --> ps proManager.checkOpt 44495 19011
+ --> ps proManager.checkOpt 44495 13061
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:41 1375954121.68  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"GiftNum": 1}, "flag": 1, "opt_id": 23013, "opt_key": "23013_15", "retime": 1375954121}
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:41 1375954121.68  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"Tech": {}, "IsUpgrading": 0}, "flag": 1, "opt_id": 15050, "opt_key": "15050_14", "retime": 1375954121}
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:41 1375954121.69  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"TRS": [], "Full": 0, "GS": {"0": {"GoodsNum": 21, "UserId": 44495, "GoodsId": 201, "Position": 1, "BagId": 9341, "GoodsType": 2}, "1": {"GoodsNum": 8, "UserId": 44495, "GoodsId": 801, "Position": 2, "BagId": 9343, "GoodsType": 2}, "2": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 1018, "Position": 3, "BagId": 9349, "GoodsType": 2}, "3": {"GoodsNum": 8, "UserId": 44495, "GoodsId": 203, "Position": 4, "BagId": 9393, "GoodsType": 2}, "4": {"GoodsNum": 13, "UserId": 44495, "GoodsId": 303, "Position": 5, "BagId": 9394, "GoodsType": 2}, "5": {"GoodsNum": 2, "UserId": 44495, "GoodsId": 1401, "Position": 6, "BagId": 9473, "GoodsType": 2}, "6": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 1004, "Position": 7, "BagId": 9479, "GoodsType": 2}, "7": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4860, "Position": 8, "BagId": 9481, "GoodsType": 1}, "8": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4861, "Position": 9, "BagId": 9482, "GoodsType": 1}, "9": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 1015, "Position": 10, "BagId": 9484, "GoodsType": 2}, "10": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4809, "Position": 11, "BagId": 9744, "GoodsType": 1}, "11": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4810, "Position": 12, "BagId": 9745, "GoodsType": 1}, "12": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4811, "Position": 13, "BagId": 9746, "GoodsType": 1}, "13": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4806, "Position": 14, "BagId": 9748, "GoodsType": 1}, "14": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4808, "Position": 15, "BagId": 9749, "GoodsType": 1}, "15": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4943, "Position": 16, "BagId": 9809, "GoodsType": 1}, "16": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4946, "Position": 17, "BagId": 9812, "GoodsType": 1}, "17": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4947, "Position": 18, "BagId": 9813, "GoodsType": 1}, "18": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4948, "Position": 19, "BagId": 9814, "GoodsType": 1}, "19": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4949, "Position": 20, "BagId": 9815, "GoodsType": 1}, "20": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4950, "Position": 21, "BagId": 9816, "GoodsType": 1}, "21": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4978, "Position": 22, "BagId": 9939, "GoodsType": 1}, "22": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4979, "Position": 23, "BagId": 9940, "GoodsType": 1}, "23": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4980, "Position": 24, "BagId": 9941, "GoodsType": 1}, "24": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4981, "Position": 25, "BagId": 9942, "GoodsType": 1}, "25": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 4982, "Position": 26, "BagId": 9943, "GoodsType": 1}, "26": {"GoodsNum": 2, "UserId": 44495, "GoodsId": 103, "Position": 27, "BagId": 9944, "GoodsType": 2}, "27": {"GoodsNum": 25, "UserId": 44495, "GoodsId": 401, "Position": 28, "BagId": 10378, "GoodsType": 2}, "28": {"GoodsNum": 50, "UserId": 44495, "GoodsId": 1501, "Position": 29, "BagId": 10379, "GoodsType": 2}, "29": {"GoodsNum": 15, "UserId": 44495, "GoodsId": 301, "Position": 30, "BagId": 10385, "GoodsType": 2}, "30": {"GoodsNum": 10, "UserId": 44495, "GoodsId": 202, "Position": 31, "BagId": 10544, "GoodsType": 2}, "31": {"GoodsNum": 10, "UserId": 44495, "GoodsId": 302, "Position": 32, "BagId": 10545, "GoodsType": 2}, "32": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 1301, "Position": 33, "BagId": 11472, "GoodsType": 2}, "33": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 1005, "Position": 34, "BagId": 11524, "GoodsType": 2}, "34": {"GoodsNum": 1, "UserId": 44495, "GoodsId": 5272, "Position": 35, "BagId": 11530, "GoodsType": 1}}, "WBS": [], "Size": 36}, "flag": 1, "opt_id": 13061, "opt_key": "13061_19", "retime": 1375954121}
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:41 1375954121.69  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"UnReadNum": 0}, "flag": 1, "opt_id": 18007, "opt_key": "18007_17", "retime": 1375954121}
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:41 1375954121.69  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"ApplyNum": 0}, "flag": 1, "opt_id": 19011, "opt_key": "19011_18", "retime": 1375954121}
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:41 1375954121.69  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"LotteryInfo": "1,4,4", "GoodsNum": 10, "AwardType": 3, "LotteryCount": 0, "GoodsId": 4, "DayOnlineTime": 7200}, "flag": 1, "opt_id": 23010, "opt_key": "23010_16", "retime": 1375954121}
+---  2013-08-08 17:28:42 1375954122.02  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"23013_20",
+	"stime":	1375954121,
+	"opt_id":	23013
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 23013
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:42 1375954122.02  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"GiftNum": 1}, "flag": 1, "opt_id": 23013, "opt_key": "23013_20", "retime": 1375954122}
+---  2013-08-08 17:28:42 1375954122.21  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"22005_21",
+	"stime":	1375954121,
+	"opt_id":	22005
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 22005
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:42 1375954122.23  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"flag": 1, "opt_id": 22005, "opt_key": "22005_21", "retime": 1375954122}
+---  2013-08-08 17:28:44 1375954124.55  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"23001_22",
+	"stime":	1375954123,
+	"opt_id":	23001
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 23001
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:44 1375954124.55  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"Recharged": 0, "Activities": [2, 3, 4, 5, 6]}, "flag": 1, "opt_id": 23001, "opt_key": "23001_22", "retime": 1375954124}
+---  2013-08-08 17:28:44 1375954124.56  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"23002_23",
+	"stime":	1375954123,
+	"opt_id":	23002
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 23002
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:44 1375954124.56  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"GL": {"1": {"LimiteTime": 0, "Perm": 1, "GiftId": 6794, "ActivityId": 4, "AwardId": 2, "CreateTime": 1375944144}}}, "flag": 1, "opt_id": 23002, "opt_key": "23002_23", "retime": 1375954124}
+---  2013-08-08 17:28:47 1375954127.96  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"15005_24",
+	"para":	{
+		"BuildingId":	13274,
+		"StorageReq":	25000
+	},
+	"stime":	1375954126,
+	"opt_id":	15005
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 15005
+ >>> Logging CoinMod.GainCoin {'Action': 1, 'OptId': 15005, 'OldCoin': 224406, 'NowCoin': 249406, 'UserId': 44495, 'Param': '{"ClientTime": 1375954126, "BuildingId": 13274, "StorageReq": 25000}', 'UserType': 0, 'CoinNumber': 25000, 'Func': 'Building_resoureUI.CollectCoin', 'UserLevel': 27, 'CreateTime': 1375954127}
+成就达成 [2]
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:47 1375954127.99  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"NowCoin": 249406, "Diff": 0, "Remain": 0, "Storage": 0}, "flag": 1, "opt_id": 15005, "opt_key": "15005_24", "retime": 1375954127}
+---  2013-08-08 17:28:52 1375954132.36  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"15013_25",
+	"para":	{
+	},
+	"stime":	1375954130,
+	"opt_id":	15013
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 15013
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:52 1375954132.36  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"Generals": [{"LeaderValue": 156, "ArmourId": 4807, "TrainSpeedValue": 0, "SpeedValue": 175, "ExpValue": 1230, "Location": 12648, "PosId": 1, "WeaponId": 0, "UserId": 44495, "GeneralLevel": 20, "HelmetId": 0, "BootsId": 0, "JewelryId": 0, "GeneralState": 1, "ForceValue": 225, "TrainForceValue": 0, "TakeType": 101, "WitValue": 195, "TrainLeaderValue": 0, "SashId": 0, "GeneralType": 12, "TrainWitValue": 0, "TakeNum": 420, "TakeTypeDefense": 0, "CreateTime": 1375438218, "GeneralId": 12158}, {"LeaderValue": 98, "ArmourId": 0, "TrainSpeedValue": 5, "SpeedValue": 90, "ExpValue": 780, "Location": 12649, "PosId": 2, "WeaponId": 0, "UserId": 44495, "GeneralLevel": 2, "HelmetId": 0, "BootsId": 0, "JewelryId": 0, "GeneralState": 1, "ForceValue": 84, "TrainForceValue": 13, "TakeType": 3, "WitValue": 129, "TrainLeaderValue": 14, "SashId": 0, "GeneralType": 20, "TrainWitValue": 0, "TakeNum": 420, "TakeTypeDefense": 0, "CreateTime": 1375438229, "GeneralId": 12159}, {"LeaderValue": 92, "ArmourId": 0, "TrainSpeedValue": 0, "SpeedValue": 81, "ExpValue": 121030, "Location": 12647, "PosId": 7, "WeaponId": 4893, "UserId": 44495, "GeneralLevel": 5, "HelmetId": 0, "BootsId": 0, "JewelryId": 4944, "GeneralState": 1, "ForceValue": 262, "TrainForceValue": 0, "TakeType": 1, "WitValue": 268, "TrainLeaderValue": 0, "SashId": 0, "GeneralType": 125, "TrainWitValue": 0, "TakeNum": 360, "TakeTypeDefense": 0, "CreateTime": 1375344957, "GeneralId": 12129}]}, "flag": 1, "opt_id": 15013, "opt_key": "15013_25", "retime": 1375954132}
+---  2013-08-08 17:28:52 1375954132.9  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"15014_26",
+	"para":	{
+		"BuildingId":	12648
+	},
+	"stime":	1375954130,
+	"opt_id":	15014
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 15014
+normalAddTrainNum num=0
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:52 1375954132.9  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"TrainNum": 20, "MaxTrainNum": 20}, "flag": 1, "opt_id": 15014, "opt_key": "15014_26", "retime": 1375954132}
+---  2013-08-08 17:28:54 1375954134.62  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"15010_27",
+	"para":	{
+		"GeneralId":	12158,
+		"CoinType":	2,
+		"BuildingId":	12648
+	},
+	"stime":	1375954131,
+	"opt_id":	15010
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 15010
+支付货币: UPDATE tb_currency SET Jcoin=Jcoin-1424 WHERE Jcoin>=1424 AND UserId='44495'
+ >>> Logging CoinMod.PayCoin {'Action': 2, 'OptId': 15010, 'OldCoin': 249406, 'NowCoin': 247982, 'UserId': 44495, 'Param': '{"ClientTime": 1375954131, "BuildingId": 12648, "GeneralId": 12158, "CoinType": 2}', 'UserType': 0, 'CoinNumber': 1424, 'Func': 'Building_trainUI.TrainGeneral', 'UserLevel': 27, 'CreateTime': 1375954134}
+normalAddTrainNum num=-1
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:54 1375954134.65  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"TrainForce": 1, "TrainLeader": 3, "TrainSpeed": 0, "TrainWit": 0, "TrainNum": 19}, "flag": 1, "opt_id": 15010, "opt_key": "15010_27", "retime": 1375954134}
+---  2013-08-08 17:28:55 1375954135.45  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"15011_28",
+	"para":	{
+		"GeneralId":	12158,
+		"BuildingId":	12648
+	},
+	"stime":	1375954132,
+	"opt_id":	15011
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 15011
+--------------------------------------------------------------------------------
+---  2013-08-08 17:28:55 1375954135.46  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"flag": 1, "opt_id": 15011, "opt_key": "15011_28", "retime": 1375954135}
+---  2013-08-08 17:29:02 1375954142.95  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"15023_29",
+	"para":	{
+		"AltarType":	1
+	},
+	"stime":	1375954139,
+	"opt_id":	15023
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 15023
+--------------------------------------------------------------------------------
+---  2013-08-08 17:29:02 1375954142.95  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"LotteryList": [{"GainNum": 3, "AwardType": 5, "AwardId": 2, "GainId": 20}, {"GainNum": 1, "AwardType": 8, "AwardId": 6, "GainId": 702}]}, "flag": 1, "opt_id": 15023, "opt_key": "15023_29", "retime": 1375954142}
+---  2013-08-08 17:29:02 1375954142.96  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"15024_30",
+	"para":	{
+		"AltarType":	1
+	},
+	"stime":	1375954139,
+	"opt_id":	15024
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 15024
+--------------------------------------------------------------------------------
+---  2013-08-08 17:29:02 1375954142.96  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"NextLoterryPay": {"NextCostType": 1, "NextCost": 13.0}}, "flag": 1, "opt_id": 15024, "opt_key": "15024_30", "retime": 1375954142}
+---  2013-08-08 17:29:04 1375954144.76  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"15021_31",
+	"para":	{
+		"BuildingId":	12765,
+		"AltarType":	1
+	},
+	"stime":	1375954141,
+	"opt_id":	15021
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 15021
+未打折前 15
+vip折扣是 0.86
+支付货币: UPDATE tb_user SET GoldCoin=GoldCoin-13.0 WHERE GoldCoin>=13.0 AND UserId='44495'
+ >>> Logging CoinMod.PayCoin {'Action': 2, 'OptId': 15021, 'OldCoin': 3244186, 'NowCoin': 3244173.0, 'UserId': 44495, 'Param': '{"ClientTime": 1375954141, "BuildingId": 12765, "AltarType": 1}', 'UserType': 0, 'CoinNumber': 13.0, 'Func': 'Building_altarUI.Lottery', 'UserLevel': 27, 'CreateTime': 1375954144}
+Award {'ItemId': 0, 'Ratio': 30, 'SkyAwardType': 7, 'AwardNum': 20000, 'AwardName': u'\u968f\u673a\u4e00\u540d\u6b66\u5c06\u7ecf\u9a8c+20000', 'AwardQuality': 3, 'AwardId': 3, 'Id': 703}
+获得武将经验
+成就达成 [14]
+--------------------------------------------------------------------------------
+---  2013-08-08 17:29:04 1375954144.81  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"NextLoterryPay": {"NextCostType": 1, "NextCost": 18.0}, "CostType": 1, "AwardType": 7, "Cost": 13.0, "Result": {"GainNum": 20000, "GainId": 20}, "AwardId": 3}, "flag": 1, "opt_id": 15021, "opt_key": "15021_31", "retime": 1375954144}
+---  2013-08-08 17:29:09 1375954149.54  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"15021_32",
+	"para":	{
+		"BuildingId":	12765,
+		"AltarType":	1
+	},
+	"stime":	1375954146,
+	"opt_id":	15021
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 15021
+未打折前 20
+vip折扣是 0.86
+支付货币: UPDATE tb_user SET GoldCoin=GoldCoin-18.0 WHERE GoldCoin>=18.0 AND UserId='44495'
+ >>> Logging CoinMod.PayCoin {'Action': 2, 'OptId': 15021, 'OldCoin': 3244173, 'NowCoin': 3244155.0, 'UserId': 44495, 'Param': '{"ClientTime": 1375954146, "BuildingId": 12765, "AltarType": 1}', 'UserType': 0, 'CoinNumber': 18.0, 'Func': 'Building_altarUI.Lottery', 'UserLevel': 27, 'CreateTime': 1375954149}
+Award {'ItemId': 1, 'Ratio': 20, 'SkyAwardType': 5, 'AwardNum': 3, 'AwardName': u'\u968f\u673a\u4e00\u540d\u6b66\u5c06\u667a\u529b+3', 'AwardQuality': 3, 'AwardId': 1, 'Id': 501}
+成就达成 [14]
+--------------------------------------------------------------------------------
+---  2013-08-08 17:29:09 1375954149.58  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"NextLoterryPay": {"NextCostType": 1, "NextCost": 22.0}, "CostType": 1, "AwardType": 5, "Cost": 18.0, "Result": {"GainNum": 3, "GainId": 12}, "AwardId": 1}, "flag": 1, "opt_id": 15021, "opt_key": "15021_32", "retime": 1375954149}
+---  2013-08-08 17:29:17 1375954157.96  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"15013_33",
+	"para":	{
+	},
+	"stime":	1375954154,
+	"opt_id":	15013
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 15013
+--------------------------------------------------------------------------------
+---  2013-08-08 17:29:17 1375954157.97  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"Generals": [{"LeaderValue": 159, "ArmourId": 4807, "TrainSpeedValue": 0, "SpeedValue": 175, "ExpValue": 1230, "Location": 12648, "PosId": 1, "WeaponId": 0, "UserId": 44495, "GeneralLevel": 20, "HelmetId": 0, "BootsId": 0, "JewelryId": 0, "GeneralState": 1, "ForceValue": 226, "TrainForceValue": 1, "TakeType": 101, "WitValue": 198, "TrainLeaderValue": 3, "SashId": 0, "GeneralType": 12, "TrainWitValue": 3, "TakeNum": 420, "TakeTypeDefense": 0, "CreateTime": 1375438218, "GeneralId": 12158}, {"LeaderValue": 98, "ArmourId": 0, "TrainSpeedValue": 5, "SpeedValue": 90, "ExpValue": 20780, "Location": 12649, "PosId": 2, "WeaponId": 0, "UserId": 44495, "GeneralLevel": 2, "HelmetId": 0, "BootsId": 0, "JewelryId": 0, "GeneralState": 1, "ForceValue": 84, "TrainForceValue": 13, "TakeType": 3, "WitValue": 129, "TrainLeaderValue": 14, "SashId": 0, "GeneralType": 20, "TrainWitValue": 0, "TakeNum": 420, "TakeTypeDefense": 0, "CreateTime": 1375438229, "GeneralId": 12159}, {"LeaderValue": 92, "ArmourId": 0, "TrainSpeedValue": 0, "SpeedValue": 81, "ExpValue": 121030, "Location": 12647, "PosId": 7, "WeaponId": 4893, "UserId": 44495, "GeneralLevel": 5, "HelmetId": 0, "BootsId": 0, "JewelryId": 4944, "GeneralState": 1, "ForceValue": 262, "TrainForceValue": 0, "TakeType": 1, "WitValue": 268, "TrainLeaderValue": 0, "SashId": 0, "GeneralType": 125, "TrainWitValue": 0, "TakeNum": 360, "TakeTypeDefense": 0, "CreateTime": 1375344957, "GeneralId": 12129}]}, "flag": 1, "opt_id": 15013, "opt_key": "15013_33", "retime": 1375954157}
+---  2013-08-08 17:29:18 1375954158.14  -- Socket recv <<  ('10.1.1.244', 64547)
+--  {
+	"opt_key":	"15014_34",
+	"para":	{
+		"BuildingId":	12648
+	},
+	"stime":	1375954154,
+	"opt_id":	15014
+}
+--------------------------------------------------------------------------------
+ --> ps proManager.checkOpt 44495 15014
+normalAddTrainNum num=0
+--------------------------------------------------------------------------------
+---  2013-08-08 17:29:18 1375954158.14  -- Socket send >>  ('10.1.1.244', 64547)
+--  {"body": {"TrainNum": 19, "MaxTrainNum": 20}, "flag": 1, "opt_id": 15014, "opt_key": "15014_34", "retime": 1375954158}

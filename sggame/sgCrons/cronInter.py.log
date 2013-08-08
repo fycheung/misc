@@ -1,0 +1,10 @@
+system_root /data1/sg_game/trunk
+ps createWordTree()
+>>> Gcore go start
+-----Gcore.start-----
+>>>创建连接池   gamesg
+-----end Gcore.start -----
+DbLogger.loop()
+MyRedis.loop()
+Finish at: 2013-08-08 00:00:02
+Total Runtime: 1.0637049675

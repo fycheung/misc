@@ -1,0 +1,10 @@
+
+2013-07-29 11:52:03,918 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-07-29 13:45:34,782 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-07-29 16:01:31,978 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
+
+2013-07-29 16:13:57,196 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 going to  stop server
+
+2013-07-29 16:13:57,196 - system   - WARNING  - gateway_8088.py - I got a signal.SIGUSR1 have stoped server
